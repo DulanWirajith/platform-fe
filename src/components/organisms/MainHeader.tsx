@@ -4,6 +4,7 @@ import profileImage from "./../../assets/img/profile-image.png";
 import {Badge, Button, Dropdown, Input, Menu} from "antd";
 import {BellFilled, MessageFilled, PlusOutlined, QuestionCircleOutlined} from "@ant-design/icons";
 import {NotificationItem} from "../atoms/NotificationItem";
+import './../../App.css'
 
 export function MainHeader() {
 
@@ -40,13 +41,7 @@ export function MainHeader() {
         </Menu>
     );
     return (
-        <div style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            paddingLeft: "10px",
-            paddingRight: '10px'
-        }}>
+        <div className="mainHeaderDiv">
             <div style={{display: "flex", alignItems: "center"}}>
                 <img src={logo}/>
             </div>
@@ -69,22 +64,12 @@ export function MainHeader() {
                 <div style={{margin: '0 20px', display: 'flex'}}>
                     <Dropdown overlay={menu}>
                         <Badge offset={[-3, 23]} dot={true} color={"#3D84FF"}>
-                            <BellFilled style={{
-                                fontSize: '28px',
-                                color: "rgb(192,192,192)",
-                                display: 'flex',
-                            }}/>
+                            <BellFilled className="notifications"/>
                         </Badge>
                     </Dropdown>
                 </div>
                 <div>
-                    <MessageFilled
-                        style={{
-                            fontSize: '25px',
-                            color: "rgb(192,192,192)",
-                            height: '100%',
-                            display: 'flex',
-                        }}/>
+                    <MessageFilled className="messages"/>
                 </div>
                 <div style={{margin: '0 20px', display: 'flex', fontSize: 'medium'}}>
                     Clarence Russell

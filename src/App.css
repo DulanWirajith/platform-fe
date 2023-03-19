@@ -32,3 +32,24 @@
     margin: auto;
     align-items: center !important;
 }
+
+.mainHeaderDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.messages {
+    font-size: 25px;
+    color: rgb(192, 192, 192);
+    height: 100%;
+    display: flex;
+}
+
+.notifications {
+    font-size: 28px;
+    color: rgb(192, 192, 192);
+    display: flex;
+}
