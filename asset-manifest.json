@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/platform-fe/static/css/main.6b689bfc.css",
-    "main.js": "/platform-fe/static/js/main.77655675.js",
+    "main.css": "/platform-fe/static/css/main.e2bf114c.css",
+    "main.js": "/platform-fe/static/js/main.117d4215.js",
     "static/js/787.0d8f108b.chunk.js": "/platform-fe/static/js/787.0d8f108b.chunk.js",
     "static/media/events-banner.png": "/platform-fe/static/media/events-banner.b708c0530140c1f8233a.png",
     "static/media/Gotham-Bold.otf": "/platform-fe/static/media/Gotham-Bold.19cbd08d9da163ba87d6.otf",
@@ -10,12 +10,12 @@
     "static/media/Gilroy-Light.otf": "/platform-fe/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
     "static/media/welcome-banner-man.png": "/platform-fe/static/media/welcome-banner-man.3213aff173545bde944c.png",
     "index.html": "/platform-fe/index.html",
-    "main.6b689bfc.css.map": "/platform-fe/static/css/main.6b689bfc.css.map",
-    "main.77655675.js.map": "/platform-fe/static/js/main.77655675.js.map",
+    "main.e2bf114c.css.map": "/platform-fe/static/css/main.e2bf114c.css.map",
+    "main.117d4215.js.map": "/platform-fe/static/js/main.117d4215.js.map",
     "787.0d8f108b.chunk.js.map": "/platform-fe/static/js/787.0d8f108b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b689bfc.css",
-    "static/js/main.77655675.js"
+    "static/css/main.e2bf114c.css",
+    "static/js/main.117d4215.js"
   ]
 }
