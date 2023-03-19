@@ -1,6 +1,6 @@
 import React from 'react';
 import {Menu} from 'antd';
-import {AppstoreFilled, FileFilled, HomeFilled, MessageFilled, SlidersFilled} from '@ant-design/icons';
+import {AppstoreFilled, FileFilled, HomeFilled, MenuOutlined, MessageFilled, SlidersFilled} from '@ant-design/icons';
 
 const SideNav = () => {
     const handleHomeClick = () => {
@@ -22,6 +22,11 @@ const SideNav = () => {
     return (
         <div>
             <Menu theme="light" mode="inline" defaultSelectedKeys={['2']}>
+                <Menu.Item key="0" onClick={handleHomeClick} style={{height: '60px',}} title={"Show"}>
+                    <MenuOutlined
+                        style={{fontSize: '20px', color: 'white', fill: "white", height: '100%', display: 'flex'}}/>
+                    <span> Show</span>
+                </Menu.Item>
                 <Menu.Item key="1" onClick={handleHomeClick} style={{height: '60px',}} title={"Home"}>
                     <HomeFilled
                         style={{fontSize: '20px', color: 'white', fill: "white", height: '100%', display: 'flex'}}/>
