@@ -22,3 +22,13 @@
     src: local('Gilroy'),
         url(./assets/fonts/Gilroy-ExtraBold.otf) format('opentype');
 }
+
+.sideBarMenuItem {
+    font-size: 20px;
+    color: white;
+    height: 100%;
+    display: flex !important;
+    fill: white;
+    margin: auto;
+    align-items: center !important;
+}

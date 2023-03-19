@@ -2,6 +2,7 @@ import {Button} from "antd";
 import {ArrowRightOutlined} from "@ant-design/icons";
 import {ActivityItem} from "../../../atoms/ActivityItem";
 import React from "react";
+import './Sections.css'
 
 export const ActivitySection = () => {
     const activities = [
@@ -21,22 +22,10 @@ export const ActivitySection = () => {
     return (
         <section>
             <div>
-                <div style={{
-                    display: 'flex', justifyContent: 'space-between', marginTop: '40px', fontSize: "xx-large",
-                    fontWeight: '900',
-                    fontFamily: 'Gotham',
-                    marginBottom: '30px'
-                }}>
+                <div className="headerTitle">
                     Activity
-                    <hr style={{width: "85%", color: '#9D9BB6', height: '2px', border: '1px solid #9D9BB6'}}/>
-                    <Button style={{
-                        backgroundColor: "rgba(255, 255, 255, 0.2)",
-                        height: '40px',
-                        paddingTop: '10px',
-                        margin: 'auto',
-                        width: '50px',
-                        display: "flex",
-                    }}>
+                    <hr className="activityHr"/>
+                    <Button className="buttonStyle">
                         <ArrowRightOutlined/>
                     </Button>
                 </div>

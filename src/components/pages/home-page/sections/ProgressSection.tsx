@@ -1,8 +1,8 @@
 import {PieChart} from "react-minimal-pie-chart";
 import {Badge, Col, Row} from "antd";
 import {ProgressBox} from "../../../atoms/ProgressBox";
-import confirmAccountDetails from "../../../../assets/img/confirm-account-details-img.png";
 import React from "react";
+import './Sections.css'
 
 export const ProgressSection = () => {
 
@@ -42,20 +42,8 @@ export const ProgressSection = () => {
     return (
         <section>
             <div style={{display: 'flex', justifyContent: 'space-between', marginTop: '40px'}}>
-                <div style={{
-                    width: '35%',
-                    backgroundColor: '#1A2D7D',
-                    margin: 'auto',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: "center",
-                    borderRadius: 10,
-                }}>
-                    <p style={{
-                        fontSize: "xx-large",
-                        color: "white",
-                        alignItems: 'center',
-                    }}>
+                <div className="progressDiv">
+                    <p className="progressOverviewText">
                         Progress Overview
                     </p>
                     <div>
@@ -67,30 +55,16 @@ export const ProgressSection = () => {
                         />
                     </div>
                     <br/>
-                    <div style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                        height: '100px',
-                        borderRadius: 10
-                    }}>
+                    <div className="progressOverViewHours">
                         <div style={{width: "200px", paddingLeft: '20px', paddingTop: '20px'}}>
                             <Badge count={1}
                                    style={{
                                        backgroundColor: 'yellow',
                                        color: 'yellow',
                                        borderRadius: 10,
-
                                    }}/>
                             <span style={{paddingLeft: '20px', color: 'white'}}>Completed</span>
-                            <div style={{
-                                fontSize: "30px",
-                                fontWeight: '900',
-                                fontFamily: 'Gotham',
-                                marginLeft: '20px',
-                                color: "white",
-                                marginTop: '10px'
-                            }}>
+                            <div className="progressHoursText">
                                 20 Hours
                             </div>
                         </div>
@@ -98,16 +72,13 @@ export const ProgressSection = () => {
 
                         <div style={{width: "200px", paddingLeft: '20px', paddingTop: '20px'}}>
                             <Badge count={1}
-                                   style={{backgroundColor: 'orange', color: 'orange', borderRadius: 10}}/>
+                                   style={{
+                                       backgroundColor: 'orange',
+                                       color: 'orange',
+                                       borderRadius: 10
+                                   }}/>
                             <span style={{paddingLeft: '20px', color: 'white'}}>Left to Go</span>
-                            <div style={{
-                                fontSize: "30px",
-                                fontWeight: '900',
-                                fontFamily: 'Gotham',
-                                marginLeft: '20px',
-                                color: "white",
-                                marginTop: '10px'
-                            }}>
+                            <div className="progressHoursText">
                                 30 Hours
                             </div>
                         </div>
@@ -115,13 +86,9 @@ export const ProgressSection = () => {
                     <br/>
                 </div>
                 <div style={{width: '63%'}}>
-                    <div style={{
-                        display: 'flex', justifyContent: 'space-between', marginTop: '20px', fontSize: "xx-large",
-                        fontWeight: '900',
-                        fontFamily: 'Gotham',
-                    }}>
+                    <div className="progressSecondDiv">
                         Progress
-                        <hr style={{width: "80%", color: '#9D9BB6', height: '2px', border: '1px solid #9D9BB6'}}/>
+                        <hr className="progressHr"/>
                     </div>
                     <br/>
                     <Row gutter={16}>
@@ -136,26 +103,10 @@ export const ProgressSection = () => {
                             })
                         }
                     </Row>
-                    <div style={{
-                        borderRadius: 20,
-                        height: '100px',
-                        backgroundImage: `url(${confirmAccountDetails})`,
-                        backgroundPosition: 'center',
-                        backgroundSize: 'cover',
-                        backgroundRepeat: 'no-repeat',
-                        marginTop: '20px',
-                        paddingLeft: '70px',
-                        display: 'flex',
-                        alignItems: 'center',
-                    }}>
-                            <span style={{color: "white", fontSize: 'x-large', fontWeight: '700',}}>
+                    <div className="confirmAccountDetailsDiv">
+                            <span className="confirmAccountDetailsDivText1">
                                 Confirm your account details.
-                                <span style={{
-                                    color: "white",
-                                    fontSize: 'x-large',
-                                    fontWeight: '300',
-                                    textAlign: 'center'
-                                }}>
+                                <span className="confirmAccountDetailsDivText2">
                                     Please confirm your email and phone number. 😢
                                 </span>
                             </span>
