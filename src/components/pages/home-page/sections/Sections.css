@@ -1,0 +1,206 @@
+.headerTitle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: Gotham;
+    margin-bottom: 30px;
+}
+
+.buttonStyle {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 40px;
+    padding-top: 10px;
+    margin: auto;
+    width: 50px;
+    display: flex !important;
+    align-items: center;
+}
+
+.spanDashboard {
+    font-size: 15px;
+    font-weight: 900;
+    font-family: Gilroy;
+    color: #9d9bb6;
+}
+
+.welcomeBannerDiv {
+    margin-top: 20px;
+    background-image: url('../../../../assets/img/welcome-banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.welcomeBannerText {
+    font-size: xx-large;
+    font-family: Gilroy;
+    color: white;
+    font-weight: 600;
+    align-items: center;
+}
+
+.divStyleFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activityHr {
+    width: 85%;
+    color: #9d9bb6;
+    height: 2px;
+    border: 1px solid #9d9bb6;
+}
+
+.eventsBannerDiv {
+    width: 65%;
+    border-radius: 20px;
+    height: 300px;
+    background-image: url('../../../../assets/img/events-banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.eventTagDiv {
+    position: relative;
+    top: 20px;
+    left: 90%;
+}
+
+.eventsBannerText {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding: 30px;
+}
+
+.eventsBannerButton {
+    background-color: white;
+    height: 40px;
+    padding-top: 10px;
+    margin: auto;
+    width: 50px;
+    display: flex;
+}
+
+.eventsBannerBackText {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Gotham;
+    margin-left: 20px;
+    color: white;
+}
+
+.eventsBannerNextText {
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Gotham;
+    margin-right: 20px;
+    color: white;
+}
+
+.eventsTodayText {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: Gotham;
+    color: #9d9bb6;
+    padding-bottom: 10px;
+}
+
+.eventsHr {
+    color: #9d9bb6;
+    height: 2px;
+    border: 1px solid #9d9bb6;
+    width: 60%;
+}
+
+.progressDiv {
+    width: 35%;
+    background-color: #1a2d7d;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.progressOverviewText {
+    font-size: xx-large;
+    color: white;
+    align-items: center;
+}
+
+.progressYellowTag {
+    background-color: yellow;
+    color: yellow;
+    border-radius: 10px;
+}
+
+.progressOverViewHours {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 100px;
+    border-radius: 10px;
+}
+
+.progressHoursText {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Gotham;
+    margin-left: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+.progressSecondDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: Gotham;
+}
+
+.confirmAccountDetailsDiv {
+    border-radius: 20px;
+    height: 100px;
+    background-image: url('../../../../assets/img/confirm-account-details-img.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.progressHr {
+    width: 80%;
+    color: #9d9bb6;
+    height: 2px;
+    border: 1px solid #9d9bb6;
+}
+
+.confirmAccountDetailsDivText1 {
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.confirmAccountDetailsDivText2 {
+    color: white;
+    font-size: x-large;
+    font-weight: 300;
+    text-align: center;
+    padding-left: 5px;
+}
