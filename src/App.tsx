@@ -1,26 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ApplicationRoutes from "./config/ApplicationRoutes";
+import {ConfigProvider} from "antd";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    return (
+        <ConfigProvider
+            theme={{
+                inherit: true,
+                token: {
+                    // colorPrimary: 'white',
+                    colorBgContainer: '#3D84FF',
+                    colorPrimaryBg: '#005DFF',
+                },
+                components: {
+                    Input: {
+                        colorBgContainer: 'white',
+                        colorBorder: '#F5F5F5',
+                        borderRadius: 5,
+                    },
+                    Button: {
+                        colorPrimary: "#3D84FF",
+                        colorPrimaryActive: "#3D84FF",
+                        borderRadius: 5,
+
+                    }
+                },
+            }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+            <ApplicationRoutes/>
+        </ConfigProvider>
+
+    );
 }
 
 export default App;
