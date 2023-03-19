@@ -18,7 +18,6 @@ const SideNav = () => {
     const handleMessageClick = () => {
     }
 
-
     return (
         <div>
             <Menu theme="light" mode="inline" defaultSelectedKeys={['2']}>
