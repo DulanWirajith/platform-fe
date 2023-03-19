@@ -6,7 +6,7 @@ ENV NODE_OPTIONS="--max-old-space-size=4096"
 COPY package.json ./
 COPY yarn.lock ./
 RUN yarn install
-COPY . ./
+COPY src ./
 RUN cd src/
 RUN yarn build
 
