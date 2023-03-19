@@ -2,6 +2,7 @@ import React from 'react';
 import {Layout} from 'antd';
 import SideNav from "../components/organisms/Sidebar";
 import {MainHeader} from "../components/organisms/MainHeader";
+import {HomePage} from "../components/pages/HomePage";
 
 const {Header, Sider, Content} = Layout;
 
@@ -20,8 +21,11 @@ const ApplicationRoutes = () => {
                         margin: '24px 16px',
                         padding: 24,
                         minHeight: "calc(100vh - 114px)",
-                        background: "white"
-                    }}></Content>
+                        scrollBehavior: "smooth",
+                        // background: "white"
+                    }}>
+                        <HomePage/>
+                    </Content>
                 </Layout>
             </Layout>
 

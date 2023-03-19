@@ -7,7 +7,7 @@ function App() {
     return (
         <ConfigProvider
             theme={{
-                inherit: true,
+                // inherit: true,
                 token: {
                     // colorPrimary: 'white',
                     colorBgContainer: '#3D84FF',
