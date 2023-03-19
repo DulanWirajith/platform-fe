@@ -93,7 +93,8 @@ export const EventsSection = () => {
                         display: 'flex', justifyContent: 'space-between', marginTop: '20px', fontSize: "25px",
                         fontWeight: '900',
                         fontFamily: 'Gotham',
-                        color: "#9D9BB6"
+                        color: "#9D9BB6",
+                        paddingBottom: '10px'
                     }}>
                         Events Today
                         <hr style={{width: "60%", color: '#9D9BB6', height: '2px', border: '1px solid #9D9BB6'}}/>

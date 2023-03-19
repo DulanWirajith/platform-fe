@@ -10,7 +10,6 @@ export const HomePage = () => {
         <>
             <DashBoardSection/>
             <EventsSection/>
-            <br/>
             <ActivitySection/>
             <ProgressSection/>
         </>

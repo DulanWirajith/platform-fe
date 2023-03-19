@@ -7,25 +7,30 @@ export const ActivitySection = () => {
     const activities = [
         {
             id: "1",
-            description: "This is a activity"
+            description: "This is a activity 01"
         },
         {
             id: "2",
-            description: "This is a activity"
+            description: "This is a activity 02"
+        },
+        {
+            id: "3",
+            description: "This is a activity 03"
         },
     ]
     return (
         <section>
             <div>
                 <div style={{
-                    display: 'flex', justifyContent: 'space-between', marginTop: '20px', fontSize: "xx-large",
+                    display: 'flex', justifyContent: 'space-between', marginTop: '40px', fontSize: "xx-large",
                     fontWeight: '900',
                     fontFamily: 'Gotham',
+                    marginBottom: '30px'
                 }}>
                     Activity
                     <hr style={{width: "85%", color: '#9D9BB6', height: '2px', border: '1px solid #9D9BB6'}}/>
                     <Button style={{
-                        backgroundColor: "#9D9BB6",
+                        backgroundColor: "rgba(255, 255, 255, 0.2)",
                         height: '40px',
                         paddingTop: '10px',
                         margin: 'auto',

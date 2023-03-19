@@ -13,6 +13,7 @@ export const EventsItem = (props: {
             backgroundColor: "white",
             padding: '20px',
             borderRadius: 10,
+            cursor: 'pointer'
         }}>
             <div>
                 <img src={eventsImage} height={70}/>

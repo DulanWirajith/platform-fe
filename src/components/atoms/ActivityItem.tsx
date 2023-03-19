@@ -13,6 +13,7 @@ export const ActivityItem = (props: {
             backgroundColor: "white",
             padding: '20px',
             borderRadius: 10,
+            cursor: 'pointer'
         }}>
             <div>
                 <img src={followersImage} height={70}/>

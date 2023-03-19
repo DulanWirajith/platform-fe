@@ -10,27 +10,32 @@ export const ProgressSection = () => {
         {
             id: "1",
             description: "Total Webinars",
-            count: 9
+            count: 9,
+            isSelected: false
         },
         {
             id: "2",
             description: "Pending Assignments",
-            count: 0
+            count: 0,
+            isSelected: false
         },
         {
             id: "3",
             description: "Total Units",
-            count: 5
+            count: 5,
+            isSelected: false
         },
         {
             id: "4",
             description: "Total Readings",
-            count: 14
+            count: 14,
+            isSelected: false
         },
         {
             id: "5",
             description: "Total Videos",
-            count: 5
+            count: 5,
+            isSelected: true
         },
     ]
 
@@ -124,7 +129,8 @@ export const ProgressSection = () => {
                             progresses.map((progress: any) => {
                                 return (
                                     <Col span={8} style={{display: 'flex'}}>
-                                        <ProgressBox description={progress.description} count={progress.count}/>
+                                        <ProgressBox description={progress.description} count={progress.count}
+                                                     isSelected={progress.isSelected}/>
                                     </Col>
                                 );
                             })
@@ -137,10 +143,10 @@ export const ProgressSection = () => {
                         backgroundPosition: 'center',
                         backgroundSize: 'cover',
                         backgroundRepeat: 'no-repeat',
-                        alignItems: 'center',
                         marginTop: '20px',
-                        paddingTop: '35px',
                         paddingLeft: '70px',
+                        display: 'flex',
+                        alignItems: 'center',
                     }}>
                             <span style={{color: "white", fontSize: 'x-large', fontWeight: '700',}}>
                                 Confirm your account details.

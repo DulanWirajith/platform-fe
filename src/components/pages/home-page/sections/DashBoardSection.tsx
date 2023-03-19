@@ -60,7 +60,7 @@ export const DashBoardSection = () => {
                             fontFamily: 'Gilroy',
                             color: "white",
                             fontWeight: '600',
-                            margin: "auto"
+                            alignItems: "center",
                         }
                         }>
                             Welcome Back, Clarence <br/>
