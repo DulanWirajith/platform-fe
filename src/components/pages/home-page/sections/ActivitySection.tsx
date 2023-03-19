@@ -8,15 +8,15 @@ export const ActivitySection = () => {
     const activities = [
         {
             id: "1",
-            description: "This is a activity 01"
+            description: "You have new 5 followers including Kathryn Crawford and Piper Shaw"
         },
         {
             id: "2",
-            description: "This is a activity 02"
+            description: "3 new events were added to your calendar"
         },
         {
             id: "3",
-            description: "This is a activity 03"
+            description: "You have 3 pending readings to complete 🤓"
         },
     ]
     return (

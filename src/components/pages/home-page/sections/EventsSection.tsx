@@ -9,13 +9,13 @@ export const EventsSection = () => {
     const events = [
         {
             id: "1",
-            time: "10:00 AM",
-            title: "This is a event"
+            time: "10:30 AM",
+            title: "Webinar: the basics of…"
         },
         {
             id: "2",
-            time: "11:00 AM",
-            title: "This is a event"
+            time: "02:15 PM",
+            title: "Team Building Activity"
         },
     ]
     return (
