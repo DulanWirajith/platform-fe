@@ -7,7 +7,6 @@ COPY package.json ./
 COPY yarn.lock ./
 RUN yarn install
 COPY src ./
-RUN cd src/
 RUN yarn build
 
 # production environment
