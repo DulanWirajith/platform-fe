@@ -2,7 +2,7 @@ import React from 'react';
 import {Layout} from 'antd';
 import SideNav from "../components/organisms/Sidebar";
 import {MainHeader} from "../components/organisms/MainHeader";
-import {HomePage} from "../components/pages/HomePage";
+import {HomePage} from "../components/pages/home-page/HomePage";
 
 const {Header, Sider, Content} = Layout;
 
@@ -22,6 +22,8 @@ const ApplicationRoutes = () => {
                         padding: 24,
                         minHeight: "calc(100vh - 114px)",
                         scrollBehavior: "smooth",
+                        overflow: 'auto',
+                        height: "calc(100vh - 114px)",
                         // background: "white"
                     }}>
                         <HomePage/>
